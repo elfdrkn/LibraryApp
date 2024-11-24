@@ -85,7 +85,7 @@ Ensure that you have **Node.js** and **npm** installed on your system.
 The backend is pre-configured and ready to handle the required CRUD operations. You can interact with the backend using Axios or any other HTTP client of your choice.
 
 Live Demo
-You can view the live version of this project by visiting the following link: Live Demo
+You can view the live version of this project by visiting the following link: [Live Demo](https://library-app-liard.vercel.app/)
 
 Conclusion
 This project showcases a fully functional library management system with React. It provides an interactive interface to manage and organize books, authors, categories, and publishers. The integration with a backend API allows seamless CRUD operations, making this a complete and efficient web application.
