@@ -1,5 +1,8 @@
 # 📚 Capstone Project: Library Management System
 
+## Live Demo
+You can view the live version of this project by visiting the following link: [Live Demo](https://library-app-liard.vercel.app/)
+
 ##  📝 Project Overview
 
 Welcome to the **Library Management System** project! This project is a **Single Page Application (SPA)** developed using **React** and **React Router**. The application allows users to efficiently manage books, authors, categories, and publishers through a fully functional CRUD (Create, Read, Update, Delete) interface.
@@ -84,8 +87,7 @@ Ensure that you have **Node.js** and **npm** installed on your system.
 ### Backend Integration
 The backend is pre-configured and ready to handle the required CRUD operations. You can interact with the backend using Axios or any other HTTP client of your choice.
 
-Live Demo
-You can view the live version of this project by visiting the following link: [Live Demo](https://library-app-liard.vercel.app/)
+
 
 Conclusion
 This project showcases a fully functional library management system with React. It provides an interactive interface to manage and organize books, authors, categories, and publishers. The integration with a backend API allows seamless CRUD operations, making this a complete and efficient web application.
