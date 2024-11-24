@@ -1,0 +1,20 @@
+/* General CSS for Styling */ 
+.home-page {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .home-page h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .home-page p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .content {
+    margin-top: 30px;
+  }
+  

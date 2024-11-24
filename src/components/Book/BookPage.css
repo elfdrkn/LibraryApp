@@ -1,0 +1,151 @@
+/* General Container */
+.book-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.book-header {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #222;
+}
+
+/* Book Row */
+.book-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    gap: 10px; /* Gap for items */
+}
+
+.book-row div:first-child {
+    flex: 3; /* More space for information */
+}
+
+
+.book-row:hover {
+    background-color: #f1f1f1;
+}
+
+/* Book Details */
+
+.book-author {
+    flex: 1;
+    font-size: 1.1rem;
+    color: #555;
+    text-align: right;
+}
+
+.button-group {
+    flex: 0; /* Minimum space for buttoons */
+    display: flex; 
+    gap: 5px; 
+}
+
+
+.update-button {
+    background-color: #ffc107;
+    color: white;
+}
+
+.update-button:hover {
+    background-color: #e0a800;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.update-button, .delete-button {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-form-button {
+    padding: 10px 15px;
+    background-color: #2835a7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+.add-form-button:hover {
+
+    background-color: #4316ac;
+}
+
+.cancel-button {
+    padding: 10px 15px;
+    background-color: #b63318;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.cancel-button:hover {
+background-color: #c82333;
+}
+
+/* Forms */
+
+
+.form-input,
+select {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Non effect for Padding and border */
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+
+/* Center */
+h2 {
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-size: 1.8rem;
+    color: #222;
+}
+
+/* Centered buttons */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cancel-button,
+.add-form-button {
+    margin: 10px 5px; 
+    display: inline-block;
+}
+
+.button-group {
+    text-align: center; 
+}
+
